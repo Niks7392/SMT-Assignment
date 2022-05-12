@@ -15,7 +15,7 @@ export class Products extends Component {
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
-            <a href={productId}  onClick={this.alertShow} className="btn btn-primary">Buy Now</a>
+            <a href='#'  onClick={this.alertShow} className="btn btn-primary">Buy Now</a>
           </div>
         </div>
       </div>
